@@ -4,6 +4,7 @@ public class menu {
     ///////////// MENU IMPORTS //////////////////////////////////
     static KeplersThirdLawMenu kepmen = new KeplersThirdLawMenu();
     static LawOfGravMenu gravmen = new LawOfGravMenu();
+    static Newtonsmenu newmen = new Newtonsmenu();
     /////////////////////////////////////////////////////////////
     public static void printMenu(){
         int choiceMen = 0;
@@ -13,7 +14,7 @@ public class menu {
             /////Selection ///
             System.out.println("1. Kepler's Calculator");
             System.out.println("2. Law of Universal Gravitation");
-            System.out.println("3. Planetary Periods");
+            System.out.println("3. Newton's Calculator");
             System.out.println("4. Satellite Stuff");
             System.out.println("5. Satellite Speeds");
             System.out.println("6. Gravitational Field");
@@ -27,6 +28,8 @@ public class menu {
                 KeplersThirdLawMenu.menuPrint();
             } else if (choiceMen == 2){
                 gravmen.GmenuPrint();
+            } else if (choiceMen ==3){
+                newmen.NmenuPrint();
             }
             
         }
