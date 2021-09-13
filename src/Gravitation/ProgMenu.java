@@ -1,6 +1,8 @@
 package Gravitation;
 import java.util.Scanner;
-public class menu {
+import javax.swing.*;
+import java.awt.*;
+public class ProgMenu extends JFrame{
     ///////////// MENU IMPORTS //////////////////////////////////
     static KeplersThirdLawMenu kepmen = new KeplersThirdLawMenu();
     static LawOfGravMenu gravmen = new LawOfGravMenu();
