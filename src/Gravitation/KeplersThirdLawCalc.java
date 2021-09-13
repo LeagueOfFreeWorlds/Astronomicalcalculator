@@ -1,5 +1,6 @@
 package Gravitation;
 import java.lang.Math;
+
 class KeplersThirdLawCalc {
     double TTa;
     double TTb;
